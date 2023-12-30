@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-orangeHRM_Test_suit" class="navigator-link">
+              <span class="suite-name border-skipped">orangeHRM Test suit</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-orangeHRM_Test_suit" class="navigator-link ">
+                    <span>E:\selinium\myproject\OrangeHRM_FrameWork\OrangeHRM.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-orangeHRM_Test_suit" class="navigator-link ">
+                    <span class="test-stats">4 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-orangeHRM_Test_suit" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-orangeHRM_Test_suit" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-orangeHRM_Test_suit" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-orangeHRM_Test_suit" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-orangeHRM_Test_suit" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">4 methods,  4 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-orangeHRM_Test_suit" class="hide-methods skipped suite-orangeHRM_Test_suit"> (hide)</a> <!-- hide-methods skipped suite-orangeHRM_Test_suit -->
+                      <a href="#" panel-name="suite-orangeHRM_Test_suit" class="show-methods skipped suite-orangeHRM_Test_suit"> (show)</a> <!-- show-methods skipped suite-orangeHRM_Test_suit -->
+                    </span>
+                    <div class="method-list-content skipped suite-orangeHRM_Test_suit">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-orangeHRM_Test_suit" title="OrangeHRM_TestCase.AdminLoginTestWithValidData" class="method navigator-link" hash-for-method="CheckAdminLogin(Admin, Qedge123!@#)">CheckAdminLogin(Admin, Qedge123!@#)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-orangeHRM_Test_suit" title="OrangeHRM_TestCase.AdminLoginTestWithInvalidData" class="method navigator-link" hash-for-method="CheckAdminLogin(abc, xyz)">CheckAdminLogin(abc, xyz)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-orangeHRM_Test_suit" title="OrangeHRM_TestCase.EmployeeRegistrationTest" class="method navigator-link" hash-for-method="CheckEmpReg(Hemanth, Demo)">CheckEmpReg(Hemanth, Demo)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-orangeHRM_Test_suit" title="OrangeHRM_TestCase.UserRegistrationTest" class="method navigator-link" hash-for-method="CheckUserRegistration(ESS, sanjay J, sanjughlk12345, SanjuRaw@123456)">CheckUserRegistration(ESS, sanjay J, sanjughlk12345, SanjuRaw@123456)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-orangeHRM_Test_suit -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-orangeHRM_Test_suit" class="panel orangeHRM_Test_suit">
+          <div class="suite-orangeHRM_Test_suit-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">OrangeHRM_TestCase.UserRegistrationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckUserRegistration(ESS, sanjay J, sanjughlk12345, SanjuRaw@123456)">
+                  </a> <!-- CheckUserRegistration(ESS, sanjay J, sanjughlk12345, SanjuRaw@123456) -->
+                  <span class="method-name">CheckUserRegistration</span>
+                  <span class="parameters">(ESS,sanjay J,sanjughlk12345,SanjuRaw@123456)</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created
+from no such execution context: loader has changed while resolving nodes
+  (Session info: chrome=114.0.5735.199)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-FVL7V1F&apos;, ip: &apos;192.168.0.151&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	GetHandleVerifier [0x00888893+48451]
+	(No symbol) [0x0081B8A1]
+	(No symbol) [0x00725058]
+	(No symbol) [0x007279D6]
+	(No symbol) [0x00729631]
+	(No symbol) [0x007296D0]
+	(No symbol) [0x00771A58]
+	(No symbol) [0x0077047C]
+	(No symbol) [0x0076A0B6]
+	(No symbol) [0x00747E08]
+	(No symbol) [0x00748F2D]
+	GetHandleVerifier [0x00AE8E3A+2540266]
+	GetHandleVerifier [0x00B28959+2801161]
+	GetHandleVerifier [0x00B2295C+2776588]
+	GetHandleVerifier [0x00912280+612144]
+	(No symbol) [0x00824F6C]
+	(No symbol) [0x008211D8]
+	(No symbol) [0x008212BB]
+	(No symbol) [0x00814857]
+	BaseThreadInitThunk [0x754F00C9+25]
+	RtlGetAppContainerNamedObjectPath [0x77447B4E+286]
+	RtlGetAppContainerNamedObjectPath [0x77447B1E+238]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at AppUtils.UtilsDemo.LanchApp(UtilsDemo.java:23)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-orangeHRM_Test_suit-class-skipped -->
+          <div class="suite-orangeHRM_Test_suit-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">OrangeHRM_TestCase.EmployeeRegistrationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckEmpReg(Hemanth, Demo)">
+                  </a> <!-- CheckEmpReg(Hemanth, Demo) -->
+                  <span class="method-name">CheckEmpReg</span>
+                  <span class="parameters">(Hemanth,Demo)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-orangeHRM_Test_suit-class-skipped -->
+          <div class="suite-orangeHRM_Test_suit-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">OrangeHRM_TestCase.AdminLoginTestWithValidData</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckAdminLogin(Admin, Qedge123!@#)">
+                  </a> <!-- CheckAdminLogin(Admin, Qedge123!@#) -->
+                  <span class="method-name">CheckAdminLogin</span>
+                  <span class="parameters">(Admin,Qedge123!@#)</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created
+from no such execution context: loader has changed while resolving nodes
+  (Session info: chrome=114.0.5735.199)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-FVL7V1F&apos;, ip: &apos;192.168.0.151&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	GetHandleVerifier [0x00888893+48451]
+	(No symbol) [0x0081B8A1]
+	(No symbol) [0x00725058]
+	(No symbol) [0x007279D6]
+	(No symbol) [0x00729631]
+	(No symbol) [0x007296D0]
+	(No symbol) [0x00771A58]
+	(No symbol) [0x0077047C]
+	(No symbol) [0x0076A0B6]
+	(No symbol) [0x00747E08]
+	(No symbol) [0x00748F2D]
+	GetHandleVerifier [0x00AE8E3A+2540266]
+	GetHandleVerifier [0x00B28959+2801161]
+	GetHandleVerifier [0x00B2295C+2776588]
+	GetHandleVerifier [0x00912280+612144]
+	(No symbol) [0x00824F6C]
+	(No symbol) [0x008211D8]
+	(No symbol) [0x008212BB]
+	(No symbol) [0x00814857]
+	BaseThreadInitThunk [0x754F00C9+25]
+	RtlGetAppContainerNamedObjectPath [0x77447B4E+286]
+	RtlGetAppContainerNamedObjectPath [0x77447B1E+238]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at AppUtils.UtilsDemo.LanchApp(UtilsDemo.java:23)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-orangeHRM_Test_suit-class-skipped -->
+          <div class="suite-orangeHRM_Test_suit-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">OrangeHRM_TestCase.AdminLoginTestWithInvalidData</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckAdminLogin(abc, xyz)">
+                  </a> <!-- CheckAdminLogin(abc, xyz) -->
+                  <span class="method-name">CheckAdminLogin</span>
+                  <span class="parameters">(abc,xyz)</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created
+from no such execution context: loader has changed while resolving nodes
+  (Session info: chrome=114.0.5735.199)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-FVL7V1F&apos;, ip: &apos;192.168.0.151&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	GetHandleVerifier [0x00888893+48451]
+	(No symbol) [0x0081B8A1]
+	(No symbol) [0x00725058]
+	(No symbol) [0x007279D6]
+	(No symbol) [0x00729631]
+	(No symbol) [0x007296D0]
+	(No symbol) [0x00771A58]
+	(No symbol) [0x0077047C]
+	(No symbol) [0x0076A0B6]
+	(No symbol) [0x00747E08]
+	(No symbol) [0x00748F2D]
+	GetHandleVerifier [0x00AE8E3A+2540266]
+	GetHandleVerifier [0x00B28959+2801161]
+	GetHandleVerifier [0x00B2295C+2776588]
+	GetHandleVerifier [0x00912280+612144]
+	(No symbol) [0x00824F6C]
+	(No symbol) [0x008211D8]
+	(No symbol) [0x008212BB]
+	(No symbol) [0x00814857]
+	BaseThreadInitThunk [0x754F00C9+25]
+	RtlGetAppContainerNamedObjectPath [0x77447B4E+286]
+	RtlGetAppContainerNamedObjectPath [0x77447B1E+238]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at AppUtils.UtilsDemo.LanchApp(UtilsDemo.java:23)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-orangeHRM_Test_suit-class-skipped -->
+        </div> <!-- panel orangeHRM_Test_suit -->
+        <div panel-name="test-xml-orangeHRM_Test_suit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\selinium\myproject\OrangeHRM_FrameWork\OrangeHRM.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;orangeHRM Test suit&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Admin Login TestCase with valid Data&quot;&gt;
+    &lt;parameter name=&quot;adminui&quot; value=&quot;Admin&quot;/&gt;
+    &lt;parameter name=&quot;adminpwd&quot; value=&quot;Qedge123!@#&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;OrangeHRM_TestCase.AdminLoginTestWithValidData&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Admin Login TestCase with valid Data --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Admin Login Testcase With Invalid Data&quot;&gt;
+    &lt;parameter name=&quot;ui&quot; value=&quot;abc&quot;/&gt;
+    &lt;parameter name=&quot;pwd&quot; value=&quot;xyz&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;OrangeHRM_TestCase.AdminLoginTestWithInvalidData&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Admin Login Testcase With Invalid Data --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Employee Resgistration Test Case with valid Data&quot;&gt;
+    &lt;parameter name=&quot;fname&quot; value=&quot;Hemanth&quot;/&gt;
+    &lt;parameter name=&quot;lname&quot; value=&quot;Demo&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;OrangeHRM_TestCase.EmployeeRegistrationTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Employee Resgistration Test Case with valid Data --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;User Registration Test Case&quot;&gt;
+    &lt;parameter name=&quot;empname&quot; value=&quot;sanjay J&quot;/&gt;
+    &lt;parameter name=&quot;role&quot; value=&quot;ESS&quot;/&gt;
+    &lt;parameter name=&quot;uname&quot; value=&quot;sanjughlk12345&quot;/&gt;
+    &lt;parameter name=&quot;pword&quot; value=&quot;SanjuRaw@123456&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;OrangeHRM_TestCase.UserRegistrationTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- User Registration Test Case --&gt;
+&lt;/suite&gt; &lt;!-- orangeHRM Test suit --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-orangeHRM_Test_suit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for orangeHRM Test suit</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Admin Login TestCase with valid Data (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Admin Login Testcase With Invalid Data (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Employee Resgistration Test Case with valid Data (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">User Registration Test Case (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-orangeHRM_Test_suit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for orangeHRM Test suit</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-orangeHRM_Test_suit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for orangeHRM Test suit</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_orangeHRM_Test_suit');
+function tableData_orangeHRM_Test_suit() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(4);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'CheckAdminLogin')
+data.setCell(0, 2, 'OrangeHRM_TestCase.AdminLoginTestWithValidData')
+data.setCell(0, 3, 0);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'CheckAdminLogin')
+data.setCell(1, 2, 'OrangeHRM_TestCase.AdminLoginTestWithInvalidData')
+data.setCell(1, 3, 0);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'CheckEmpReg')
+data.setCell(2, 2, 'OrangeHRM_TestCase.EmployeeRegistrationTest')
+data.setCell(2, 3, 0);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'CheckUserRegistration')
+data.setCell(3, 2, 'OrangeHRM_TestCase.UserRegistrationTest')
+data.setCell(3, 3, 0);
+window.suiteTableData['orangeHRM_Test_suit']= { tableData: data, tableDiv: 'times-div-orangeHRM_Test_suit'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 0 ms</span>
+              <div id="times-div-orangeHRM_Test_suit">
+              </div> <!-- times-div-orangeHRM_Test_suit -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-orangeHRM_Test_suit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for orangeHRM Test suit</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-orangeHRM_Test_suit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-orangeHRM_Test_suit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">OrangeHRM_TestCase.UserRegistrationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">LanchApp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

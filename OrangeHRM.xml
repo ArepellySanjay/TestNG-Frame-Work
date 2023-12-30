@@ -1,0 +1,56 @@
+<suite name = "orangeHRM Test suit">
+	
+	
+	<test name = "Admin Login TestCase with valid Data">
+		<parameter name ="adminui" value ="Admin"></parameter>
+		<parameter name ="adminpwd" value ="Qedge123!@#"></parameter>
+		<classes>
+			
+	      <class name = "OrangeHRM_TestCase.AdminLoginTestWithValidData"></class>
+		
+		</classes>
+		
+	</test>
+	
+	<test name = "Admin Login Testcase With Invalid Data">
+		<parameter name = "ui" value = "abc"></parameter>
+		<parameter name = "pwd" value = "xyz"></parameter>
+		<classes>
+			
+			<class name = "OrangeHRM_TestCase.AdminLoginTestWithInvalidData"></class>
+		</classes>
+		
+	</test>
+		
+	<test name="Employee Resgistration Test Case with valid Data">
+	<parameter name="fname" value="Hemanth"></parameter>	
+    <parameter name="lname" value="Demo"></parameter>		
+		
+		<classes>
+			
+			<class name="OrangeHRM_TestCase.EmployeeRegistrationTest"></class>
+			
+		</classes>
+          		
+	</test>
+
+	
+	<test name="User Registration Test Case">
+	<parameter name="role" value="ESS"></parameter>
+	<parameter name="empname" value="sanjay J"></parameter>	
+	<parameter name="uname" value="sanjughlk12345"></parameter>
+	<parameter name="pword" value="SanjuRaw@123456"></parameter>	
+		
+		<classes>
+			
+			<class name="OrangeHRM_TestCase.UserRegistrationTest"></class>
+		</classes>
+		
+		
+	</test>
+	
+	
+	
+	
+	
+</suite>
